@@ -1,0 +1,18 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  margin: 2rem !important;
+}
+
+.btn {
+  margin-top: 2rem !important;
+}
+
+.navbar .btn {
+  margin-top: 0 !important;
+}
