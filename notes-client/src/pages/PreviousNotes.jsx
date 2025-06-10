@@ -112,7 +112,7 @@ const filteredNotes = notes.filter(note => {
                 <textarea
                   className="textarea textarea-bordered w-full my-2 validator"
                   value={content}
-                  pattern="[A-Za-z][A-Za-z0-9\-]*" minlength="3" maxlength="30" title="Only letters, numbers or dash"
+                  pattern="[A-Za-z][A-Za-z0-9\-]*" minlength="3" maxlength="3000" title="Only letters, numbers or dash"
                   onChange={(e) => setContent(e.target.value)}
                   placeholder="Content"
                   required
